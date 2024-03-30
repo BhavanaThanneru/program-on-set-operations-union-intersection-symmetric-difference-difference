@@ -1,0 +1,29 @@
+set_one={1,2,3,4,5}
+set_two={3,4,5,8,9}
+
+# union
+# union: combines the both sets and create a new set with other two created sets
+# union symbol representation "|" or "." we can use any one symbol for union
+
+print(set_one | set_two)
+print(set_one.union(set_two))
+
+# intersection
+# intersection: means common values in both sets
+# intersection symbol representation "&" or "." we can use any one symbol for intersection
+
+print(set_one & set_two)
+print(set_one.intersection(set_two))
+
+# symmetric difference
+# means non-common values in both sets
+# symmetric difference symbol representation "^" 
+
+print(set_one^set_two)
+
+# difference
+# subtract the values in the set as per code and shows the difference in a selected code
+# symbol representation is "-"
+
+print(set_one-set_two)
+print(set_two-set_one)
